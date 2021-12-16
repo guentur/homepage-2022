@@ -1,3 +1,7 @@
+/*
+########## General styles
+ */
+
 * {
     margin: 0;
     padding: 0;
@@ -68,7 +72,10 @@ body {
     }
 }
 
-/* --- Contact info header --- */
+/*
+########## Contact info styles
+ */
+
 .contact-info__header,
 .contact-info__sub-header {
     text-align: center;
@@ -132,7 +139,10 @@ body {
     border-color: var(--text-decoration-color);
 }
 
-/* --- Intro and skills --- */
+/*
+########## Intro and skills styles
+ */
+
 .intro {
     display: flex;
     justify-content: start;
@@ -159,6 +169,10 @@ body {
     text-align: justify;
 }
 
+.intro_text ul {
+    list-style-position: inside;
+}
+
 .skills__header {
     color: var(--secondary-text-color);
     text-align: center;
@@ -170,7 +184,10 @@ body {
     text-align: justify;
 }
 
-/* --- Experiences --- */
+/*
+########### Experience and additonal info styles
+ */
+
 .experiences {
     flex: 1 1 60%;
     margin-right: 50px;
@@ -264,4 +281,3 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
-
