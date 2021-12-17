@@ -18,6 +18,8 @@ body {
     --icon-color: #6a737d;
     --border-color: #ff9a0045;
     --text-decoration-color: #ff9a00;
+    font-size: 17px;
+    list-style-position: inside;
 }
 
 .container {
@@ -191,8 +193,14 @@ body {
     max-width: 600px;
 }
 
+.flex-lists__item-header {
+    margin-bottom: 5px;
+    color: var(--primary-text-color);
+}
+
 .skills__container {
     margin: 0 auto;
+    color: var(--secondary-text-color);
 }
 
 /*
