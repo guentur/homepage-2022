@@ -19,7 +19,6 @@ body {
     --border-color: #ff9a0045;
     --text-decoration-color: #ff9a00;
     font-size: 17px;
-    list-style-position: inside;
 }
 
 main {
@@ -197,6 +196,8 @@ main {
     flex-direction: row;
     justify-content: space-between;
     max-width: 600px;
+    list-style-type: "\1F44D";
+    list-style-position: inside;
 }
 
 .flex-lists__item-header {
@@ -212,11 +213,6 @@ main {
 /*
 ########### Experience and additonal info styles
  */
-
-.experiences {
-    flex: 1 1 60%;
-    margin-right: 50px;
-}
 
 .experiences__header {
     color: var(--secondary-text-color);
