@@ -184,6 +184,17 @@ body {
     text-align: justify;
 }
 
+.flex-lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 600px;
+}
+
+.skills__container {
+    margin: 0 auto;
+}
+
 /*
 ########### Experience and additonal info styles
  */
