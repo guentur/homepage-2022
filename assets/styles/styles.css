@@ -214,6 +214,11 @@ main {
 ########### Experience and additonal info styles
  */
 
+.main-info {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 .experiences__header {
     color: var(--secondary-text-color);
     text-align: left;
