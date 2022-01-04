@@ -253,6 +253,13 @@ main {
     margin-bottom: 25px;
 }
 
+.experiences__company-project-durability {
+    color: var(--durability-text-color);
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
 .experiences__company-project-role {
     color: var(--durability-text-color);
     text-align: left;
@@ -263,12 +270,13 @@ main {
 .experiences__company-project-name {
     color: var(--primary-text-color);
     text-align: left;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
 }
 
 .experiences__company-project-responsibilities {
     color: var(--secondary-text-color);
     padding-left: 20px;
+    font-size: 17px;
 }
 
 .additional-info {
@@ -283,13 +291,6 @@ main {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
-}
-
-.additional-info__education-university-durability {
-    color: var(--durability-text-color);
-    text-align: left;
-    margin-bottom: 10px;
-    font-size: 15px;
 }
 
 .additional-info__education-university-speciality {
