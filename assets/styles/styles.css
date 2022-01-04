@@ -188,6 +188,22 @@ main {
     list-style-position: inside;
 }
 
+.old-intro ul {
+    list-style-position: inside;
+}
+
+.old-intro--indent {
+    margin-top: 13px;
+}
+
+.old-intro__content {
+    padding-left: 25px;
+}
+
+.old-intro__summary {
+    cursor: pointer;
+}
+
 .skills__header {
     color: var(--secondary-text-color);
     text-align: center;
