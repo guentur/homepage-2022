@@ -16,4 +16,27 @@ Because of only trying to develop clear code is not a whole affair, I want to ri
 - [GitHub](https://github.com/guentur)
 - [LinkedIn](https://www.linkedin.com/in/peretyatko/)
 
+## Timeline
 
+### Born in Nova Kakhovka, Kherson Oblast, Ukraine
+- March 24th, 2003
+
+### Went to first grade!
+- September 1st, 2009
+
+### Went to music school
+- September 1st, 2015
+
+I played a bandura!
+
+### Entered the Lyceum
+- September 1st, 2016
+- [Technical and Economic Lyceum in Nova Kakhovka](https://nktel.jimdofree.com/)
+  - Specialized subjects: Chemistry, Mathematics
+
+### Entered a University
+- _September 1st, 2021_
+- [European University](https://e-u.edu.ua/ua/navchalni-pidrozdili/fakulteti/fakultet-informatsijnih-sistem-ta-tehnologij/)
+  - _Computer Science_
+
+2021-2025
