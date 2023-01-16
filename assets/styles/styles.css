@@ -19,11 +19,12 @@ body {
     --icon-color: #6a737d;
     --border-color: #ff9a0045;
     --text-decoration-color: #ff9a00;
+    --background-color: #624d38;
     font-size: 17px;
 }
 
 main {
-    background: rgb(247,156,126);
+    background: var(--background-color);
     padding: 50px 0;
 }
 
