@@ -1,3 +1,7 @@
+/*
+########## General styles
+ */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,17 +13,25 @@ body {
     line-height: 1.5;
 
     --primary-text-color: #181820;
-    --secondary-text-color: #5c5c62;
-    --durability-text-color: #6a737d9c;
+    --secondary-text-color: #181820;
+    --durability-text-color: #5c5c62;
+    --color-link: rgba(248,153,45, 0.8);
     --icon-color: #6a737d;
     --border-color: #ff9a0045;
     --text-decoration-color: #ff9a00;
+    --background-color: #624d38;
+    font-size: 17px;
+}
+
+main {
+    background: var(--background-color);
+    padding: 50px 0;
 }
 
 .container {
     margin: 0 auto;
     padding: 0 30px;
-    max-width: 900px;
+    max-width: 935px;
 }
 
 .fh {
@@ -31,15 +43,16 @@ body {
 .fv {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
 }
 
 .resume {
-    margin: 50px auto;
+    margin: 0 auto;
     border: 1px solid #f5f5f5;
     box-shadow: 1px 1px 7px 7px #f5f5f5;
     padding: 30px 0;
-    max-width: 900px;
+    max-width: 935px;
+    background: rgba(246,247,242);
 }
 
 .resume__block {
@@ -68,7 +81,10 @@ body {
     }
 }
 
-/* --- Contact info header --- */
+/*
+########## Contact info styles
+ */
+
 .contact-info__header,
 .contact-info__sub-header {
     text-align: center;
@@ -97,8 +113,9 @@ body {
 }
 
 .contact-info__item {
-    color: var(--secondary-text-color);
-    text-decoration: none;
+    color: var(--durability-text-color);
+    /*color: rgb(98,77,56);*/
+    /*text-decoration: none;*/
     display: flex;
     justify-content: start;
 }
@@ -112,6 +129,12 @@ body {
     width: 20px;
     display: flex;
     justify-content: center;
+    padding-top: 7px;
+}
+
+.contact-info__item-icon-wrapper img {
+    width: 20px;
+    height: 20px;
 }
 
 .contact-info__item-icon path {
@@ -132,7 +155,10 @@ body {
     border-color: var(--text-decoration-color);
 }
 
-/* --- Intro and skills --- */
+/*
+########## Intro and skills styles
+ */
+
 .intro {
     display: flex;
     justify-content: start;
@@ -159,6 +185,26 @@ body {
     text-align: justify;
 }
 
+.intro_text ul {
+    list-style-position: inside;
+}
+
+.old-intro ul {
+    list-style-position: inside;
+}
+
+.old-intro--indent {
+    margin-top: 13px;
+}
+
+.old-intro__content {
+    padding-left: 25px;
+}
+
+.old-intro__summary {
+    cursor: pointer;
+}
+
 .skills__header {
     color: var(--secondary-text-color);
     text-align: center;
@@ -170,9 +216,31 @@ body {
     text-align: justify;
 }
 
-/* --- Experiences --- */
+.flex-lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 600px;
+    list-style-type: "\1F44D";
+    list-style-position: inside;
+}
+
+.flex-lists__item-header {
+    margin-bottom: 5px;
+    color: var(--primary-text-color);
+}
+
+.skills__container {
+    margin: 0 auto;
+    color: var(--secondary-text-color);
+}
+
+/*
+########### Experience and additonal info styles
+ */
+
 .experiences {
-    flex: 1 1 60%;
+    flex: 1 1 70%;
     margin-right: 50px;
 }
 
@@ -202,6 +270,13 @@ body {
     margin-bottom: 25px;
 }
 
+.experiences__company-project-durability {
+    color: var(--durability-text-color);
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
 .experiences__company-project-role {
     color: var(--durability-text-color);
     text-align: left;
@@ -212,12 +287,13 @@ body {
 .experiences__company-project-name {
     color: var(--primary-text-color);
     text-align: left;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
 }
 
 .experiences__company-project-responsibilities {
     color: var(--secondary-text-color);
     padding-left: 20px;
+    font-size: 17px;
 }
 
 .additional-info {
@@ -232,13 +308,6 @@ body {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
-}
-
-.additional-info__education-university-durability {
-    color: var(--durability-text-color);
-    text-align: left;
-    margin-bottom: 10px;
-    font-size: 15px;
 }
 
 .additional-info__education-university-speciality {
@@ -265,3 +334,6 @@ body {
     color: var(--secondary-text-color);
 }
 
+.additional-info-block {
+    margin-bottom: 20px;
+}
