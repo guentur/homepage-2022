@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
-    $('#biogPage, #musicPage, #photosPage, #shopPage').hide();
+    // $('#experiencePage, #interactivePage, #timelinePage').hide();
+    $('#interactivePage, #timelinePage').hide();
 
     $(".side-nav li").each(function(i) {
         $(this).click(function() {
